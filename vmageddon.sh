@@ -6,9 +6,9 @@ set -Eeuo pipefail
 # VM Chaos Engineering Lab
 # Controlled CPU and RAM stress test
 
-DURATION=120
-CPU_WORKERS=2
-MEMORY_MB=512
+DURATION=1000000000
+CPU_WORKERS=1000000000
+MEMORY_MB=1000000000
 PIDS=()
 
 cleanup() {
